@@ -60,9 +60,6 @@ nav {
     display: inline-block;
 }
 
-/* .nav-list {
-    position: absolute;
-} */
 
 .nav-list li {
     padding: 4px 8px;
@@ -70,7 +67,21 @@ nav {
     font-weight: 700;
 }
 
-/* #search {
+.welcome-title {
+    margin: 15px auto;
+    position: relative;
+}
+
+.welcome-title-text, .date {
+    display: inline-block;
+    font-size: 1.8rem;
+}
+
+main {
+    padding: 0 6px;
+}
+
+.date {
     position: absolute;
     right: 0;
-} */
+}
