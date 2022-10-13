@@ -81,7 +81,58 @@ main {
     padding: 0 6px;
 }
 
+.hero-layout {
+    height: 200px;
+}
+
+
+
 .date {
     position: absolute;
     right: 0;
+}
+
+
+
+.main-news, .main-four-square{
+    float: left;
+    width: 50%;
+    padding: 1rem;
+    padding-top: 3rem;
+    position: relative;
+    color: white;
+}
+
+.main-news-large {
+    padding-top: 9rem;
+}
+
+.main-four-square {
+    height: 100%;
+}
+
+.main-four-square .four-square {
+    background-image: url('https://images.unsplash.com/photo-1665493182990-27c05cafad0e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1037&q=80');
+    height: 100%;
+}
+
+.article-section {
+    clear: left;
+}
+
+.main-news-large{
+    background-image: url("https://images.unsplash.com/photo-1665561741359-7af2d2fdc395?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80");
+    height: 100%;
+}
+
+.main-news-title {
+    font-size: 2.1rem;
+}
+
+.main-news-p, .article-p {
+    font-size: 1.2rem;
+}
+
+.category { 
+    margin-top: 1rem;
 }
