@@ -9,142 +9,33 @@ html {
     font-size: 62.5%;
 }
 
-body {
-    border: 20px solid black;
-    border-top: none;
-    clear: left;
-}
-
-main {
-    background-color: white;
-}
-
-header {
+.navigation {
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
     background-color: black;
     color: white;
-    height: 30px;
+    padding: 0 8px;
 }
 
-nav { 
-    height: 100%;
-    padding: 5px 0;
-    position: relative;
-}
-
-.bbc-logo {
-    max-height: 100%;
-    display: inline-block;
+.bbc-logo, .sign-in-img {
+    max-height: 100%; 
+    padding: 8px 0;
 }
 
 .sign-in-container {
-    height: 100%;
-    border-left: 1px solid gray;
-    /* border-right: 1px solid gray; */
-    display: inline-block;
-    width: 100px;
-    padding: 3px;
-    position: relative;
+    display: flex;
+    align-items: center;
 }
 
-.sign-in-img, .sign-in-text {
-    height: 100%;
-    display: inline-block;
-    /* position: absolute; */
+.nav-list {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
 }
 
-.sign-in-text{
-    position:absolute;
-    left: 50px;
+.search-container{
+    display: flex;
+    align-items: center;
 }
 
-.nav-list, .nav-list li {
-    display: inline-block;
-}
-
-
-.nav-list li {
-    padding: 4px 8px;
-    border-left: 1px solid gray;
-    font-weight: 700;
-}
-
-.welcome-title {
-    margin: 15px auto;
-    position: relative;
-}
-
-.welcome-title-text, .date {
-    display: inline-block;
-    font-size: 1.8rem;
-}
-
-main {
-    padding: 0 6px;
-}
-
-.hero-layout {
-    height: 300px;
-}
-
-
-
-.date {
-    position: absolute;
-    right: 0;
-}
-
-
-
-.main-news, .main-four-square{
-    float: left;
-    width: 50%;
-    padding: 1rem;
-    padding-top: 3rem;
-    position: relative;
-    color: white;
-}
-
-.main-news-large {
-    padding-top: 9rem;
-}
-
-.main-four-square {
-    height: 100%;
-    padding-top: 0;
-}
-
-.main-four-square .four-square {
-    background-image: url('https://images.unsplash.com/photo-1665493182990-27c05cafad0e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1037&q=80');
-    width: 45%;
-    height: 147px;
-    margin: 2px;
-}
-
-.article-section {
-    clear: left;
-}
-
-.main-news-large{
-    background-image: url("https://images.unsplash.com/photo-1665561741359-7af2d2fdc395?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80");
-    height: 100%;
-}
-
-.main-news-title {
-    font-size: 2.1rem;
-}
-
-.main-news-p, .article-p {
-    font-size: 1.2rem;
-}
-
-.category { 
-    margin-top: 1rem;
-}
-
-.article-section {
-    margin-top: 3rem;
-}
-
-.article-section-title {
-    margin: 1rem 0;
-}
