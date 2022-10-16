@@ -125,3 +125,7 @@ main {
 .category {
     font-size: 1.1rem;
 }
+
+.article img {
+    width: 100%;
+}
