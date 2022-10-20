@@ -5,13 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Khan Academy</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <nav>
-            <a href="#">Courses</a>
-            <input type="text" name="search" placeholder="Search">
-            <div>
+            <div class="courses">
+                <a href="#">Courses</a>
+                <input type="text" name="search" placeholder="Search">
+            </div>    
+            <div class="logo-div">
                 <h3>Khan Academy</h3>
             </div>
             <ul>
@@ -22,12 +25,12 @@
         </nav>
     </header>
 
-    <section>
-        <img src="https://cdn.kastatic.org/images/lohp/hero_student_collage_compressed.png" alt="Khan Academy Image">
-        <div>
+    <main>
+        <img class="hero-img" src="https://cdn.kastatic.org/images/lohp/hero_student_collage_compressed.png" alt="Khan Academy Image">
+        <div class="hero-text-section">
             <h1>For every student, every classroom. Real results.</h1>
             <p>We're a nonprofit with the mission to provide a free, world-class education for anyone, anywhere.</p>
-            <div>
+            <div class="main-links">
                 <!-- Appearance on site is a button, but best practice is to have
                 buttons that lead to another page be an anchor tag-->
                 <a href="#">Learners</a> 
@@ -36,10 +39,9 @@
                 <a href="#">Parents</a>
             </div>
         </div>
-    </section>
+    </main>
 
     <section>
-        <button>V</button>
         <h1>Why Khan Academy works</h1>
         <section>
             <h3>Personalized learning</h3>
