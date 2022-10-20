@@ -38,6 +38,7 @@ nav ul {
 
 main {
     display: flex;
+    padding: 0 2rem;
 }
 
 .hero-img {
@@ -65,10 +66,80 @@ main {
 .main-links {
     display: flex;
     gap: 1rem;
+    
 }
 
 .main-links a {
     background-color: rgb(75, 116, 253);
     color: white;
-    padding: 1rem;
+    padding: 1rem 2rem;
+    border-radius: 8px;
 }
+
+.three-card-section {
+    text-align: center;
+    padding: 4rem 2rem 8rem;
+    background-color: rgb(248, 240, 232);
+}
+
+.three-card {
+    display: flex;
+    justify-content: center;
+    /* gap: 6rem; */
+}
+
+.three-card section {
+    flex-basis: 33.333%;
+    padding: 1rem;
+    line-height: 2rem;
+}
+
+.three-card-section h1 {
+    font-size: 3rem;
+    margin: 4rem 0;
+}
+
+.three-card section h3 {
+    font-size: 2rem;
+    margin: 2rem 0;
+}
+
+.sixty-forty {
+    display: flex;
+    padding: 8rem 2rem;
+}
+
+.sixty-forty-text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;    
+}
+
+.sixty-forty-text h1 {
+    font-size: 4.0rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.sixty-forty-text p {
+    font-size: 1.6rem;
+    line-height: 3rem;
+}
+
+.sixty-forty-text > a {
+    background-color: rgb(75, 116, 253);
+    color: white;
+    padding: 2rem 4rem;
+    align-self: flex-start;
+    border-radius: 8px;
+}
+
+.sixty-forty-img {
+   width: 50%;
+}
+
+.sixty-forty-img img {
+    max-width: 100%;
+}
+
