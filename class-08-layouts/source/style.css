@@ -85,6 +85,24 @@ header {
     height: 250px;
 }
 
+.four-card-section {
+    padding: 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.four-card-section article{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.four-card-section img {
+    background-color: lightgray;
+    width: 50px;
+    height: 50px;
+}
 
 @media screen and (max-width: 800px) {
     nav {
