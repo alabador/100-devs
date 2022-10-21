@@ -140,3 +140,20 @@ nav ul li {
     border: 1px solid black;
     padding: 1.5rem 3rem;
 }
+
+footer {
+    background-color: rgb(40, 48, 58);
+    color: white;
+    padding: 2rem;
+}
+
+.lower-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.lower-footer img {
+    width: 5%;
+}
