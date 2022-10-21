@@ -89,7 +89,7 @@ nav ul li {
 
 .why-section {
     text-align: center;
-    padding: 16rem 25%;
+    padding: 12rem 25%;
 }
 
 .why-section h1 {
@@ -100,4 +100,24 @@ nav ul li {
 .why-section p {
     font-size: 1.6rem;
     line-height: 2.4rem;
+}
+
+/*Promo Section */
+.promo-cards {
+    display: flex;
+    padding: 10%;
+    background-color: rgb(228, 250, 228);
+    gap: 1rem;
+}
+
+.promo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+}
+
+.promo h3 {
+    font-size: 1.6rem;
 }
