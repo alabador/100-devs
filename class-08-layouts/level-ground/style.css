@@ -134,7 +134,7 @@ nav ul li {
     margin: 0 2rem;
 }
 
-.promo a {
+.promo a, .why-section a {
     font-size: 1.4rem;
     color: black;
     border: 1px solid black;
@@ -196,5 +196,10 @@ footer {
 
 .lower-footer img {
     width: 5%;
+}
+
+.volunteer-cta {
+    margin-top: 2rem;
+    display: inline-block;
 }
 
