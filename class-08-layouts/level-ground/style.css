@@ -121,3 +121,22 @@ nav ul li {
 .promo h3 {
     font-size: 1.6rem;
 }
+
+.promo-img {
+    background-color: rgb(85, 109, 116);
+    width: 25vw;
+    height: 20vh;
+}
+
+.promo p {
+    font-size: 1.2rem;
+    line-height: 2rem;
+    margin: 0 2rem;
+}
+
+.promo a {
+    font-size: 1.4rem;
+    color: black;
+    border: 1px solid black;
+    padding: 1.5rem 3rem;
+}
