@@ -102,10 +102,9 @@ nav {
     margin: 2rem 0;
 }
 
-.about-us h3 {
+h3 {
     color: orange;
     font-size: 1.2rem;
-    text-transform: uppercase;
 }
 
 .about-us h1 {
@@ -115,4 +114,78 @@ nav {
 
 .about-us p {
     line-height: 2rem;
+}
+
+.four-card-promo-section {
+    text-align: center;
+    padding: 4rem;
+}
+
+.meal-selection {
+    display: inline-block;
+    padding: 3rem 0 2rem;
+    border-bottom: 1px solid lightgray;
+}
+
+.four-card-promo-section h1 {
+    font-size: 4rem;
+    font-family: 'DM Serif Text', 'serif';
+}
+
+.meal-selection ul {
+    display: flex;
+    gap: 4rem;
+}
+
+.four-cards {
+    display: flex;
+    justify-content: space-around;
+    padding: 4rem 0;
+}
+
+.four-cards img {
+    background-color: gray;
+    width: 200px;
+    height: 300px;
+}
+
+.contact {
+    background-color: rgb(227, 248, 255);
+    text-align: center;
+    padding: 4rem 0;
+}
+
+.contact * {
+    margin: 2rem 0;
+}
+
+.contact h1 {
+    font-size: 4rem;
+    font-family: 'DM Serif Text', 'serif';
+}
+
+.call-icon {
+    background-color: gray;
+    width: 75px;
+    height: 75px;
+}
+
+.contact p {
+    font-size: 1.2rem;
+}
+
+.contact h2 {
+    font-size: 2.8rem;
+    font-family: 'DM Serif Text', 'serif';
+    color: orange;
+}
+
+.hours {
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+}
+
+.hours h4 {
+    font-size: 1.6rem;
 }
