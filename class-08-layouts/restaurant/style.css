@@ -150,7 +150,7 @@ h3 {
 }
 
 .contact {
-    background-color: rgb(227, 248, 255);
+    background-color: lightgray;
     text-align: center;
     padding: 4rem 0;
 }
@@ -188,4 +188,59 @@ h3 {
 
 .hours h4 {
     font-size: 1.6rem;
+}
+
+.video {
+    background-color: gray;
+    width: 80%;
+    height: 300px;
+}
+
+.testimonials {
+    text-align: center;
+    padding: 6rem 0;
+}
+
+.testimonials h1 {
+    font-size: 4rem;
+    font-family: 'DM Serif Text', 'serif';
+}
+
+.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: gray;
+    display: inline-block;
+    margin-top: 4rem;
+}
+
+.testimonials h4 {
+    margin-top: 2rem;
+    font-size: 2rem;
+}
+
+.testimonials h5 {
+    font-size: 1.2rem;
+    color: gray;
+}
+
+.stars-div {
+    display: flex;
+    gap: 1rem;
+    padding: 2rem 0;
+    justify-content: center;
+}
+
+.stars-div div {
+    width: 25px;
+    height: 25px; 
+    background-color: gray;
+}
+
+.testimonials p {
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    padding: 2rem 10vw;
+    font-style: italic;
 }
