@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+a {
+    text-decoration: none;
+}
+
+header, .links ul {
+    display: flex;
+    align-items: center;
+}
+
+header {
+    justify-content: space-around;
+    padding: 3rem;
+}
+
+.links ul {
+    gap: 4rem;
+}
+
+.logo-div {
+    width: 75px;
+    height: 25px;
+    background-color: gray;
+}
+
+.search-icon, .cart {
+    width: 25px;
+    height: 25px; 
+    background-color: gray;
+}
