@@ -93,4 +93,26 @@ nav {
 
 .about-us {
     background-color: rgb(238, 238, 238);
+    padding: 4rem 0;
+    padding-left: 40%;
+    padding-right: 20%; 
+}
+
+.about-us * {
+    margin: 2rem 0;
+}
+
+.about-us h3 {
+    color: orange;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+.about-us h1 {
+    font-size: 4rem;
+    font-family: 'DM Serif Text', 'serif';
+}
+
+.about-us p {
+    line-height: 2rem;
 }
