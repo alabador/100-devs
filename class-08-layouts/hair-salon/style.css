@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 * {
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: 'EB Garamond', 'Times New Roman', 'serif';
     margin: 0;
     padding: 0;
     list-style: none;
@@ -20,22 +22,62 @@ header, .links ul {
 }
 
 header {
-    justify-content: space-around;
-    padding: 3rem;
+    justify-content: space-between;
+    padding: 2rem 6rem;
 }
 
 .links ul {
     gap: 4rem;
 }
 
+.links ul a, .book-header {
+    color: black;
+}
+
 .logo-div {
     width: 75px;
     height: 25px;
-    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+    font-weight: 700;
 }
 
 .search-icon, .cart {
     width: 25px;
     height: 25px; 
-    background-color: gray;
+}
+
+.search-icon img, .cart img {
+    width: 100%;
+}
+
+.hero {
+    padding: 12rem 15vw;
+    border-radius: 0 0 10% 35%;
+    background-image: url("https://images.unsplash.com/photo-1500917293891-ef795e70e1f6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 70%;
+    color: white;
+    
+}
+
+.hero h1 {
+    font-size: 6rem;
+    font-weight: 400;
+}
+
+.hero p {
+    font-size: 1.2rem;
+}
+
+.hero a {
+    color: white;
+    background-color: black;
+    padding: 1.5rem 2rem;
+    display: inline-block;
+    margin: 2rem 0;
+    font-size: 1.2rem;
 }
