@@ -108,3 +108,32 @@ header {
 .first-visit span {
     font-size: 2.4rem;
 }
+
+.three-card-section {
+    display: flex;
+    justify-content: center;
+    padding: 20rem 15vw;
+    gap: 4rem;
+}
+
+.three-card-section article img {
+    width: 20%;
+    /* height: 50px; */
+}
+
+.three-card-section article {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+}
+
+.three-card-section article h3 {
+    font-size: 1.6rem;
+}
+
+.three-card-section article p {
+    line-height: 2rem;
+}
