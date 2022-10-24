@@ -59,8 +59,9 @@ header {
     background-image: url("https://images.unsplash.com/photo-1500917293891-ef795e70e1f6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 50% 70%;
+    background-position: 50% 40%;
     color: white;
+    position: relative;
     
 }
 
@@ -80,4 +81,30 @@ header {
     display: inline-block;
     margin: 2rem 0;
     font-size: 1.2rem;
+}
+
+.first-visit {
+    background-color: black;
+    color: white;
+    width: 15vw;
+    padding: 2rem;
+    position: absolute;
+    top: 400px;
+}
+
+.first-visit a {
+    background-color: white;
+    color: black;
+    padding: 1rem 2rem;
+    width: 70%;
+    display: inline-block;
+}
+
+.first-visit p {
+    font-size: 1rem;
+    padding: 1.5rem 0;
+}
+
+.first-visit span {
+    font-size: 2.4rem;
 }
