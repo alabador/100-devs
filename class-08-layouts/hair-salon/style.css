@@ -164,3 +164,23 @@ header {
     flex-basis: 40%;
     background-color: gray;
 }
+
+.three-images {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 2rem;
+    padding: 6rem 0;
+}
+
+.profile img {
+    width: 200px;
+    height: 300px;
+    background-color: rgb(245, 245, 235);
+}
+
+.profile div {
+    background-color: black;
+    color: white;
+    padding: 1rem 2rem;
+}
