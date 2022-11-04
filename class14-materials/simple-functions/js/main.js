@@ -16,3 +16,8 @@ function divide(a,b){
         return a/b;
     }
 }
+
+//create a function that subtracts two numbers
+function subtract(a,b){
+    return a-b;
+}

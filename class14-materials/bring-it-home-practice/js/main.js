@@ -40,3 +40,8 @@ function multThreeZebra(a,b,c){
 
 console.log(multThreeZebra(3,1,9));
 console.log(multThreeZebra(2,4,8));
+
+//Create a function that checks if a is larger than b
+function isLarger(a,b) {
+    return a>b;
+}
